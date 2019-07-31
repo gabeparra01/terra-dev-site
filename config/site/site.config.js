@@ -82,6 +82,7 @@ const siteConfig = {
       */
     themes: {
       'Default Theme': '',
+      'Orion Fusion Theme': 'orion-fusion-theme',
     },
 
     /** The default theme of the site. Note, this value should be a key that was
