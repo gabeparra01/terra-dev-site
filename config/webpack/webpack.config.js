@@ -3,11 +3,11 @@ const defaultWebpackConfig = require('terra-toolkit/config/webpack/webpack.confi
 const terraDevSiteConfig = require('./terra-dev-site.webpack.config');
 const themeConfig = require('../theme/theme-config');
 
-const mergedConfig = (env, argv) => (
-  Object.assign(env, themeConfig);
+const mergedConfig = (env, argv) => {
+  const newEnv = { ...env, themeConfig };
   merge.strategy({
     'resolve.modules': 'prepend',
-  })(defaultWebpackConfig(env, argv), terraDevSiteConfig(env, argv))
-);
+  })(defaultWebpackConfig(newEnv, argv), terraDevSiteConfig(env, argv));
+};
 
 module.exports = mergedConfig;
