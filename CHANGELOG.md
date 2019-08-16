@@ -4,6 +4,28 @@ Changelog
 Unreleased
 ----------
 
+6.1.1 - (August 13, 2019)
+----------
+### Fixed
+* Add height 100% to main tag for raw pages.
+
+6.1.0 - (August 13, 2019)
+----------
+### Fixed
+* Add back github icon for old site passivity.
+* Scroll to location if an anchor is present.
+* Log error boundary error to console.
+* Add missing keys to status views.
+* Generation succeeds with an empty section.
+
+### Changed
+* Remove div containing status view to center component.
+* Resolver plugins now allow more types of requires for hot reloading.
+* Raw routes are wrapped in main.
+
+### Removed (considered non breaking)
+* Removed the webpackAliasOptions and monoRepo config sections from site.config. These were unused in any known repo and added complexity.
+
 6.0.0 - (July 30, 2019)
 ----------
 ### Breaking
