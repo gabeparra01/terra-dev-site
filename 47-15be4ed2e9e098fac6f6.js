@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[47],{913:function(e,n,a){"use strict";a.r(n);var t=a(0),o=a.n(t),r=a(31),s=a.n(r),c=a(45),i=a.n(c),l=a(52),u=a(85),w=a.n(u);n.default=function(){var e=o.a.useContext(l.DisclosureManagerContext);return o.a.createElement(s.a,{header:o.a.createElement(i.a,{title:"Test Extension",onBack:e.goBack,onClose:e.closeDisclosure}),fill:!0},o.a.createElement(w.a,{variant:"no-data"}))}}}]);
+//# sourceMappingURL=47-15be4ed2e9e098fac6f6.js.map

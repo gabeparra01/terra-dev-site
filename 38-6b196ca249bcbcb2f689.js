@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[38],{799:function(e,n,a){e.exports={marked:"marked-module__marked___361eJ"}},887:function(e,n,a){"use strict";a.r(n);var d=a(0),r=a.n(d),o=a(2),t=a.n(o),c=a(799),i=a.n(c),s=t.a.bind(i.a);n.default=function(){return r.a.createElement("div",{dir:"ltr",className:s("marked"),dangerouslySetInnerHTML:{__html:"<p><code>inline code</code></p>\n"}})}}}]);
+//# sourceMappingURL=38-6b196ca249bcbcb2f689.js.map
